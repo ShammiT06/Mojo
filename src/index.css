@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+.bebas-font {
+  font-family: 'Bebas Neue', sans-serif;
+}
+.urbanist{
+   font-family: "Urbanist", sans-serif;
+}
+.montserrat {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+
+@keyframes marquee{
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translate(-50%)
+  }
+}
+
+
+
+.marquee{
+  animation: marquee 30s linear infinite
+}
