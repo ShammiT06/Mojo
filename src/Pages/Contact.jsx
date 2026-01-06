@@ -1,7 +1,13 @@
-import React from 'react'
+import Contact from "../Components/Contact Component/Contact"
+import Right from "../Components/Contact Component/Right"
 
-export default function Contact() {
+export default function ContactPage() {
   return (
-    <div>Contact</div>
+    <div className='mt-20'>
+      <div>
+        <Contact />
+        <Right/>
+      </div>
+    </div>
   )
 }

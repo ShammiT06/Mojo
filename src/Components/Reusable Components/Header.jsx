@@ -29,9 +29,9 @@ export default function Header() {
         <div className="gap-8 text-3xl bebas-font hidden md:flex">
           <Link to="/" className="hover:underline">HOME</Link>
           <Link to="/about" className="hover:underline">ABOUT US</Link>
-          <Link className="hover:underline">COURSE</Link>
-          <Link className="hover:underline">Gallery</Link>
-          <Link className="hover:underline">CONTACT</Link>
+          <Link to="/course" className="hover:underline">COURSE</Link>
+          <Link to="/gallery" className="hover:underline">Gallery</Link>
+          <Link to="/contact" className="hover:underline">CONTACT</Link>
         </div>
       </div>
       <section className={`flex flex-col items-center gap-14 text-3xl bebas-font bg-white shadow-md fixed h-[150vh] w-[40%] z-20 top-0 transition-all duration-300 ${menu ? "right-0" : "-right-[50%]"}`}
@@ -45,7 +45,7 @@ export default function Header() {
         </button>
         <Link to="/" className="hover:underline">HOME</Link>
         <Link to="/about" className="hover:underline">ABOUT US</Link>
-        <Link className="hover:underline">COURSE</Link>
+        <Link to="/course" className="hover:underline">COURSE</Link>
         <Link className="hover:underline">GALLERY</Link>
         <Link className="hover:underline">CONTACT</Link>
       </section>
