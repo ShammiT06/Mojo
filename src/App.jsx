@@ -7,7 +7,8 @@ import MainLayout from './layouts/MainLayout'
 import ScrollToTop from './Components/ScollTop'
 import Course from './Pages/Course'
 import Contact from './Pages/Contact'
-import Gallery from './Components/Home Components/Gallery'
+import Galleri from './Pages/Galleri'
+
 
 export default function App() {
   return (
@@ -19,7 +20,7 @@ export default function App() {
             <Route path='/' element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path="/course" element={<Course/>} />
-            <Route path='/gallery' element={<Gallery/>} />
+            <Route path='/gallery' element={<Galleri/>} />
             <Route path='/contact' element={<Contact/>} />
 
           </Route>

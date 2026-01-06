@@ -8,7 +8,7 @@ export default function Price() {
             <h1 className="text-center bebas-font text-[80px] md:text-[110px] mt-10">
                 PRICE
             </h1>
-            <div className="flex justify-center items-end gap-14 flex-1 pb-20">
+            <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:items-end flex-1 pb-20">
                 <div className="w-[300px] h-[500px] bg-white rounded-3xl" />
                 <div className="w-[340px] h-[580px] bg-white rounded-3xl" />
                 <div className="w-[300px] h-[500px] bg-white rounded-3xl" />

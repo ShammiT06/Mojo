@@ -31,9 +31,9 @@ export default function Contact() {
             </div>
             <div>
                 {
-                    active === "chennai" && <h1>Hello Chennai</h1>}
+                    active === "chennai" && <h1 className="text-center bebas-font">Hello Chennai</h1>}
                 {
-                    active === "bengaluru" && <h1>Hello Bengaluru</h1>
+                    active === "bengaluru" && <h1 className="text-center bebas-font">Hello Bengaluru</h1>
                 }
             </div>
         </div>

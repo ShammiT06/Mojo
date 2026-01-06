@@ -39,6 +39,7 @@ export default function Services() {
           className="
             grid
             grid-cols-2
+            mb-14
             sm:grid-cols-2
             md:grid-cols-3
             gap-x-8
