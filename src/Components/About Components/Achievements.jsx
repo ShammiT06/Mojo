@@ -13,7 +13,7 @@ export default function Achievements() {
 
   return (
     <section className="w-full mt-20 overflow-hidden">
-      <h1 className="text-center bebas-font md:text-[160px] text-[80px] lg:text-[200px]">
+      <h1 className="text-center bebas-font md:text-[160px] text-[80px] lg:text-[180px]">
         ACHIEVEMENT
       </h1>
 
