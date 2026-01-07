@@ -43,7 +43,7 @@ export default function Timing() {
           <h1 className="font-bold urbanist leading-none flex items-end justify-center lg:justify-start">
             <span className="text-[64px] sm:text-[80px] md:text-[100px] lg:text-[120px]">09</span>
             <span className="text-[40px] sm:text-[48px] md:text-[56px] mx-1 mb-2">:</span>
-            <span className="text-[56px] sm:text-[72px] md:text-[90px] lg:text-[110px]">30</span>
+            <span className="text-[56px] sm:text-[72px] md:text-[90px] lg:text-[110px]">00</span>
             <span className="text-[20px] sm:text-[24px] md:text-[28px] ml-2 mb-2">
               pm
             </span>
