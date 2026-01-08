@@ -1,27 +1,28 @@
+import { useNavigate } from "react-router-dom";
 import TeamImg from "../../assets/Home/Team.png";
 import Person1 from "../../assets/Home/Team1.png";
 
 export default function Team() {
-
+    const navigate = useNavigate()
     const team = [
         {
             id: 1,
-            name: "Name",
+            name: "Demo1",
             image: Person1,
         },
         {
-            id: 1,
-            name: "Name",
+            id: 2,
+            name: "Demo2",
             image: Person1,
         },
         {
-            id: 1,
-            name: "Name",
+            id: 3,
+            name: "Demo3",
             image: Person1,
         },
         {
-            id: 1,
-            name: "Name",
+            id: 4,
+            name: "Demo4",
             image: Person1,
         }
     ];
@@ -59,6 +60,7 @@ export default function Team() {
                             src={item.image}
                             alt={item.name}
                             className="w-[250px] mx-auto rounded-xl"
+                            onClick={()=>{navigate(`/individual/${item.id}`)}}
                         />
                         <h1 className="text-white mt-4 text-xl font-semibold">
                             {item.name}

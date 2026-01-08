@@ -8,6 +8,7 @@ import ScrollToTop from './Components/ScollTop'
 import Course from './Pages/Course'
 import Contact from './Pages/Contact'
 import Galleri from './Pages/Galleri'
+import Portfolio from './Components/Reusable Components/Portfolio'
 
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
             <Route path="/course" element={<Course/>} />
             <Route path='/gallery' element={<Galleri/>} />
             <Route path='/contact' element={<Contact/>} />
+            <Route path='/individual/:id' element={<Portfolio/>} />
 
           </Route>
         </Routes>
